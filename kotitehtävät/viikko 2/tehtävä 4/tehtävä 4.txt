@@ -1,1 +1,6 @@
 T‰llaisen raakileen tekeminen oli mukavaa koska t‰m‰n ei kai viel‰ pit‰isik‰‰n toimia :D
+
+UPDATE
+
+Lis‰sin bookstore.html -tiedoston. Olin kyll‰ tietoinen ett‰ sen pit‰‰ olla olemassa, mutta teht‰v‰nannossa 
+ei erikseen mainittu sen luomisesta mit‰‰n niin ajattelin ett‰ ehk‰ se tehd‰‰n vasta ensi kerralla.

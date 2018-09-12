@@ -1,2 +1,6 @@
 Eclipse valittaa thymeleaf html-tiedostossa että "invalid location of tag li", mutta en tiedä mikä siinä on vialla,
 kopioin sen suoraan thymeleaf-ohjeista :< Eli ei toimi.
+
+UPDATE:
+
+Vai että <ul> -elementit puuttuivat, asia selvä!

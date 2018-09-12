@@ -2,7 +2,6 @@ package hh.palvelinohjelmointi.helloAge.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -14,9 +13,8 @@ public class MessageController {
 
     @RequestMapping(value="/hello", method=RequestMethod.GET)
     public String greetingAge(@RequestParam(name="name") String name, 
-			@RequestParam(name="age") int age) {
+			@RequestParam(name="age") int age, Model model) {
     	
-    	Model model = null;
         model.addAttribute("message", new Message(name, age));
         return "hello";
     }

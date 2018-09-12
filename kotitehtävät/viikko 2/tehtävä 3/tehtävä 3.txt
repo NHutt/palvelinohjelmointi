@@ -1,3 +1,8 @@
 Kuten edellisess‰kin teht‰v‰ss‰, li-tagissa on kuulemma jotain vikaa. En vain tied‰ ett‰ mit‰, joten en p‰‰se oikein
 testailemaan muiden asioiden toimivuutta. Vaikka kyll‰ on vahvat ep‰ilykset etteiv‰t ne toimisi :D
 Olen edelleen h‰mmentynyt, ett‰ miss‰ vaiheessa se uusien olioiden listalle lis‰‰minen olisi tarkoitus tehd‰.
+
+UPDATE
+
+Sama <ul>-homma p‰ti t‰h‰nkin teht‰v‰‰n. Pyytelin tunnilla silloin aika paljon apua, joten nyt teht‰v‰ toimii.
+Olin n‰emm‰ tehnyt listan luomisen ja listalle lis‰‰misen ihan oikein.

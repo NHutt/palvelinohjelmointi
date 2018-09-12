@@ -2,3 +2,11 @@ Tehtävä 1
 
 En tiedä mitä teen väärin, mutta minulla eclipse valittaa &gt ja &lt -merkinnöistä. En myöskään ymmärrä, miten
 requestparametripyynnöt tehdään kun käytetään modelia. Ei toimi :<
+
+UPDATE
+
+Sain tehtävän vihdoinkin korjattua ja viaksi paljastui se, että kun olin copypastennut materiaalista ilmaisut,
+joissa esiintyi lainausmerkki niin ilmeisesti tämä kyseinen lainausmerkkiversio ei toiminut eclipsessä.
+Laureat vinkkasi että lainausmerkit kannattaa kirjoittaa itse uudestaan ja nyt vihdoinkin toimii.
+Oli siellä seassa myös toinenkin virhe mutta sen sain korjattua suhteellisen nopeasti nyt kun pystyin testailemaan
+koodin toimivuutta selaimella.

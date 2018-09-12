@@ -15,7 +15,7 @@ public class FriendController {
 	
 	ArrayList<Friend> lista = new ArrayList<Friend>();
 	
-	// tyhjän autolomakkeen muodostaminen
+	// tyhjän lomakkeen muodostaminen
 	@RequestMapping(value="/index", method=RequestMethod.GET)
 	public String getNewFriend(Model model) {
 		model.addAttribute("friend", new Friend());  // "tyhjä" auto-olio
@@ -23,7 +23,7 @@ public class FriendController {
 	}
 	
 	
-	// autolomakeella syötettyjen tietojen vastaanotto
+	// lomakeella syötettyjen tietojen vastaanotto
 	@RequestMapping(value="/add", method=RequestMethod.GET)
 	public String friendList(@ModelAttribute Friend friend, Model model){
 		lista.add(friend);

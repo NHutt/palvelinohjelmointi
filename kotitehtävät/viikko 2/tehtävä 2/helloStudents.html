@@ -3,6 +3,10 @@
 
 <body>
 	<p>Welcome to Haaga-Helia!</p>
-	<li th:each="${studentList}" th:text="${student.firstName}" th:text="${student.lastName}></li>  
+	
+	<ul th:each="student: ${studentList}">
+		<li th:text="${student.firstName} + ' ' + ${student.lastName}">Student name</li>
+	</ul>
+
 </body>
 </html>
