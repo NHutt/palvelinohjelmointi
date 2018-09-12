@@ -1,0 +1,3 @@
+Tehtävän tekeminen onnistui ihan hyvin, mietin vain aika pitkään että oliko tässä tarkoitus tehdä kokonaan uusi projekti.
+Muistelin kuitenkin, että tunnilla oltaisiin juuri zipattu meidän luomamme projektit kotikäyttöä varten, joten päädyin
+tekemään tarvittavat metodit tunnilla luotuun projektiin. Toivottavasti ei haittaa :)

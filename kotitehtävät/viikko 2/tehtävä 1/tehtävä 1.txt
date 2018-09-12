@@ -1,0 +1,4 @@
+Tehtävä 1
+
+En tiedä mitä teen väärin, mutta minulla eclipse valittaa &gt ja &lt -merkinnöistä. En myöskään ymmärrä, miten
+requestparametripyynnöt tehdään kun käytetään modelia. Ei toimi :<

@@ -1,0 +1,3 @@
+Kuten edellisess‰kin teht‰v‰ss‰, li-tagissa on kuulemma jotain vikaa. En vain tied‰ ett‰ mit‰, joten en p‰‰se oikein
+testailemaan muiden asioiden toimivuutta. Vaikka kyll‰ on vahvat ep‰ilykset etteiv‰t ne toimisi :D
+Olen edelleen h‰mmentynyt, ett‰ miss‰ vaiheessa se uusien olioiden listalle lis‰‰minen olisi tarkoitus tehd‰.

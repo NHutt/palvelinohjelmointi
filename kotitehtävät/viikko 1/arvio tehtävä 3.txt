@@ -1,0 +1,4 @@
+En löytänyt tehtävässä olleen linkin takaa osiota, jonka nimi olisi ollut suoraan "Getting started", mutta selailin
+sivua muuten vaan. En myöskään tiedä, mitä tutorialia tehtävässä tarkoitetaan, linkki vie sivulle missä on paljon
+erilaisia vaihtoehtoja. Vilkaisin, mitä linkkien takaa löytyi ja vietin hetken aikaa Learn Git branching -sivun parissa.
+Jumituin tosin jo aika alkupuolelle koska selkeästi yrittämässäni komennossa oli jotain vikaa. 
