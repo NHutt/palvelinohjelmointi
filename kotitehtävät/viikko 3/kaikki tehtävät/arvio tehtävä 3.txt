@@ -1,0 +1,3 @@
+Nämä toiminnallisuudet oltiin käyty yhdessä läpi, joten niiden tekeminen sujui ongelmitta.
+
+Github: https://github.com/NHutt/palvelinohjelmointi/tree/master/bookstore

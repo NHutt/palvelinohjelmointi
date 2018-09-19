@@ -1,0 +1,5 @@
+Ihan hyvin meni, vaikka sql-lokiin tulostuu myös id-kohtaan ? toisin kuin tehtävänannossa, jonka
+esimerkissä id:n kohdalla on null. Kaikki tosin muuten toimii ihan hyvin ja molemmat testikirjat saavat id:n automaattisesti,
+joten ei se näytä toiminnallisuuteen vaikuttavan?
+
+Github: https://github.com/NHutt/palvelinohjelmointi/tree/master/bookstore

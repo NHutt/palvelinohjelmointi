@@ -1,0 +1,5 @@
+Apua nyt vasta tajusin oikeasti kokeilla että toimiiko se editointi oikeasti. Se editointisivu hakee kyllä ihan nätisti
+olemassa olevat tiedot, mutta kun yritän painaa save niin koko juttu leviää enkä oikein tiedä miten sen saisi toimimaan.
+Höh.
+
+https://github.com/NHutt/palvelinohjelmointi/tree/master/bookstore
