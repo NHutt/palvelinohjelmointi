@@ -1,14 +1,16 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
-<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" th:href="@{css/bootstrap.min.css}" />
+<link type="text/css" rel="stylesheet" href="../css/bootstrap.min.css" th:href="@{../css/bootstrap.min.css}" />
 <head>
     <title>Edit book</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
+
+	<!-- <div class="row"> -->
 	<h1>Edit book</h1>
 	<div>
-		<form th:object="${book}" th:action="@{save}" action="#" method="post">
+		<form th:object="${book}" th:action="@{../save}" action="#" method="post">
 		
 			<input type="hidden" th:field="*{id}" class="form-control"/>
 		
@@ -34,6 +36,7 @@
 			
 			<input type="submit" value="Save"></input>
 		</form>
+		</div>
 	</div>
 </body>
 </html>
