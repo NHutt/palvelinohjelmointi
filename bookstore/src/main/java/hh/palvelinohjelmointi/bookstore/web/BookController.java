@@ -2,6 +2,7 @@ package hh.palvelinohjelmointi.bookstore.web;
 
 import hh.palvelinohjelmointi.bookstore.domain.Book;
 import hh.palvelinohjelmointi.bookstore.domain.BookRepository;
+import hh.palvelinohjelmointi.bookstore.domain.CategoryRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -19,14 +20,9 @@ public class BookController {
 	@Autowired
 	private BookRepository bookRepository;
 	
-	/* @RequestMapping(value="/index", method=RequestMethod.GET)
-		public String getNewBook(Model model) {
-			model.addAttribute("book", new Book());
-			
-			return "bookstore";
-		}
-		
-	*/
+	@Autowired
+	private CategoryRepository categoryRepository; 
+	
 
 	/** palauttaa listauksen kaikista tietokannan kirjoista **/
 	@RequestMapping(value="/booklist", method=RequestMethod.GET)
@@ -49,6 +45,7 @@ public class BookController {
 	@RequestMapping(value = "/add")
     public String addBook(Model model){
     	model.addAttribute("book", new Book());
+    	model.addAttribute("categories", categoryRepository.findAll());
         return "addbook";
     }  
 	
