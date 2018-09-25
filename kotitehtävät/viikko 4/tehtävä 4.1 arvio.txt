@@ -1,0 +1,4 @@
+Listaus ja lis‰ys vaikuttavat toimivan ihan kivasti, h‰iritsee vaan etten osaa s‰‰t‰‰ addbook.html:n pudotusvalikkoa
+kapeammaksi :D
+
+Git-URL: https://github.com/NHutt/palvelinohjelmointi/tree/master/bookstore

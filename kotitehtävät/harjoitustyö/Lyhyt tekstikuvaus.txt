@@ -1,0 +1,5 @@
+Tavoitteenani on tehdä WoW tasklist -sovellus, jonka avulla voisin pitää kirjaa siitä, mitä kaikkea minun pitäisi
+World of Warcraft -pelissä tehdä. Minulla on melko huono muisti, joten usein käy niin, etten keksi, mitä lähtisin
+pelissä tekemään, vaikka tiedän että tekemistä olisi vaikka millä mitalla. Tämän sovelluksen avulla voisin sekä
+listata kaikki tehtävät että hakea tekemättömiä tehtäviä esimerkiksi hahmon tai paikan perusteella. 
+Näkisin sen lisäksi myös ne tehtävät, jotka olen jo suorittanut.
