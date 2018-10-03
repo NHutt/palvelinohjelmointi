@@ -1,0 +1,7 @@
+teht‰v‰ 1
+
+T‰ss‰ teht‰v‰ss‰ l‰hinn‰ p‰‰nvaivaa tuotti se, ett‰ teht‰v‰nannossa k‰skettiin tekem‰‰n JSONignore 
+one-to-many -suhteeseen mutta StudentListRESTiss‰ olimme tehneet sen many-to-one -suhteeseen.
+P‰‰dyimme kavereiden kanssa laittamaan se samalla tavalla kuin esimerkkiteht‰v‰ss‰. Teorisoimme, ett‰ ehk‰ suhdetta
+kutsutaan yleisesti aina one-to-many:ksi ja ehk‰ JSONignore toimii samankaltaisesti kummallakin puolella?
+
