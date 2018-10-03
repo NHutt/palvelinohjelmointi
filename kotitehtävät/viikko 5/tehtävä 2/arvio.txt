@@ -1,0 +1,8 @@
+tehtävä 2
+
+Tämä tehtävä oli kyllä tuon lisäyksen osalta aikamoista taiteilua, Moodlen ohjeiden avulla en saanut lisäystä toimimaan,
+mutta Tiian tavalla command promptilla onnistui. Omalla kotikoneellani command prompt ei jostain syystä suostu
+siirtymään mihinkään kansioon, joten kokeilin ensiksi tehdä lisäystä Git Bashilla ja PowerShellillä, mutta niillä en 
+onnistunut saamaan muita kuin erroreita.
+
+Opin myös, että ilmeisesti REST-palvelut eivät luontaisesti tue ääkkösiä.
