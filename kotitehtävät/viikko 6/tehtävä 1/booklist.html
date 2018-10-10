@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<html xmlns:th="http://www.thymeleaf.org">
 <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" th:href="@{css/bootstrap.min.css}" />
 <head>
     <title>Booklist</title>
@@ -26,7 +26,7 @@
 		    <th>Price</th>
 		    <th>Category</th>
 		    <th></th>
-		    <th sec:authorize="hasAuthority('ADMIN')"></th>
+		    <th sec:authorize="hasRole('ADMIN')"></th>
 		</tr>  
     	<tr th:each = "book : ${books}">
     		<td th:text="${book.author}"></td>
@@ -36,7 +36,7 @@
     		<td th:text="${book.price}"></td>
     		<td th:text="${book.category.name}"></td>
     		<td><a th:href="@{/edit/{id}(id=${book.id})}" class="btn btn-warning">Edit</a></td>
- 			<td sec:authorize="hasAuthority('ADMIN')"><a th:href="@{/delete/{id}(id=${book.id})}" class="btn btn-danger">Delete</a></td>   
+ 			<td sec:authorize="hasRole('ADMIN')"><a th:href="@{/delete/{id}(id=${book.id})}" class="btn btn-danger">Delete</a></td>   
  			 		
     	</tr>
      </table>

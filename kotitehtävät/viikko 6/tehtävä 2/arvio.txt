@@ -1,0 +1,25 @@
+tehtävä 2
+
+Muuten sujui ihan hyvin, mutta kun yritin luoda itse keksityt tunnukset commandlinerunnerilla, kirjautuessa sivu
+valitti virheellisistä tunnuksista ja konsoliin tuli teksti:
+
+"o.s.s.c.bcrypt.BCryptPasswordEncoder     : Encoded password does not look like BCrypt"
+
+
+Hashit loin osoitteessa https://bcrypt-generator.com/ ja kun ne eivät toimineet, tarkistin vielä, 
+että ne varmasti vastasivat niitä salasanoja, joilla yritin kirjautua.
+Hieman omituista, sillä kun tein samat esimerkkikäyttäjät kuin studentlist-esimerkissä, ne toimivat varsin mainiosti.
+Onko BCrypt-hasheista erilaisia versioita, joista vain jotkut ovat yhteensopivia meidän koodimme kanssa?
+Jos haluat vilkaista generoimiani hasheja niin ne löytyvät BookstoreApplication.java:sta.
+
+Huomasin myös, että minun editbook.html -sivuni on jossain vaiheessa näemmä levinnyt. Tai se aukeaa ihan hyvin, ja kenttiin 
+latautuu se tieto mikä on tarkoituskin, mutta kun kirjan tiedot yrittää tallentaa, saa virheilmoituksen,
+ja konsoliin tulee lukemaan:
+
+org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'name' cannot be found on null
+
+Sen jälkeen myöskään /booklist -pääsivu ei enää toimi, ja ohjelma pitää käynnistää eclipsessä uudelleen, 
+että sen saa taas toimimaan. Olen selkeästi muuttanut koodissa jotain sivun toiminnan kannalta kriittistä, 
+mutta en tiedä, mikä muutos juuri tähän asiaan saattaisi vaikuttaa :<
+
+Github: https://github.com/NHutt/palvelinohjelmointi/tree/master/bookstore

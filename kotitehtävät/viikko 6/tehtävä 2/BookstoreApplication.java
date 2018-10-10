@@ -43,8 +43,8 @@ public class BookstoreApplication {
 		
 			// Luodaan käyttäjät user/user ja admin/admin
 			// nämä tunnukset taas toimivat niinkuin pitääkin
-			User user3 = new User("user", "$2a$06$3jYRJrg0ghaaypjZ/.g4SethoeA51ph3UD4kZi9oPkeMTpjKU5uo6", "waah@blaah.fi", "USER");
-			User user4 = new User("admin", "$2a$10$0MMwY.IQqpsVc1jC8u7IJ.2rT8b0Cd3b3sfIBGV2zfgnPGtT4r0.C", "mjaah@wraah.fi", "ADMIN");
+			User user3 = new User("user", "$2a$06$3jYRJrg0ghaaypjZ/.g4SethoeA51ph3UD4kZi9oPkeMTpjKU5uo6", "edfrfqae", "USER");
+			User user4 = new User("admin", "$2a$10$0MMwY.IQqpsVc1jC8u7IJ.2rT8b0Cd3b3sfIBGV2zfgnPGtT4r0.C", "wesgwsh", "ADMIN");
 				
 				userRepository.save(user1);
 				userRepository.save(user2);

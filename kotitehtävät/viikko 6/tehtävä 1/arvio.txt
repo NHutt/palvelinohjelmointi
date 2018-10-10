@@ -1,0 +1,5 @@
+tehtävä 1
+
+Tehtävän tekeminen sujui esimerkkiprojektin avulla mukavasti ja kivuttomasti :>
+
+Github: https://github.com/NHutt/palvelinohjelmointi/tree/master/bookstore 
