@@ -27,6 +27,12 @@ public class BookController {
 	@Autowired
 	private CategoryRepository categoryRepository; 
 	
+	// Sisäänkirjautuminen
+    @RequestMapping(value="/login")
+    public String login() {	
+        return "login";
+    }	
+	
 	// REST-palvelu, joka palauttaa kaikki kirjat
     @RequestMapping(value="/books", method = RequestMethod.GET)
     public @ResponseBody List<Book> bookListRest() {	
