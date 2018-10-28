@@ -27,7 +27,7 @@ public class Category {
 		this.name = name;
 	}
 
-	public Long getCategoryid() {
+	public Long getCategoryId() {
 		return categoryid;
 	}
 
